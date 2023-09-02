@@ -8,14 +8,35 @@ regionChat = (5,1140,395,20)
 regionDialogue = (550,140,700,120)
 screenResolution = [tk.winfo_screenwidth(),tk.winfo_screenheight()]
 screenCenter = [screenResolution[0]//2, screenResolution[1]//2]
+switchDeuxièmePokemon = (614,805)
+fishingKey = '"'
 bindAbra = "9"
 
-print(screenCenter)
+totalEarnings = []
+sac = {}
+
+momentDebut = str(datetime.datetime.now())
+
 
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
+def updateStats(money = 0,drop = ""):
+    global totalEarnings
+    global sac
+    if drop != "":
+        if (drop in sac):
+            sac[drop] += 1
+        elif not(drop in sac):
+            sac[drop] = 1
+    totalEarnings = totalEarnings + [money]
+    with open("earnings.txt","w") as file:
+        file.write(f"{momentDebut}\n")
+        for drop in sac.keys():
+            file.write(f"{drop} : {sac[drop]}\n")
+        file.write(f"Total money : {sum(totalEarnings)}\n")
+    
 def pressFishingKey():
-    press('"')
+    press(fishingKey)
 
 def isOnScreen(image):
     positions = locateOnScreen(image, confidence=1)
@@ -24,7 +45,7 @@ def isOnScreen(image):
 
 def goToPokeCenter(dead = False):
     if dead:
-        click(614,805) #Switch sur deuxieme pokemon
+        click(switchDeuxièmePokemon[0],switchDeuxièmePokemon[1]) #Switch sur deuxieme pokemon
     time.sleep(round(random.uniform(6.5, 6.75), 2))
     press("s")
     time.sleep(round(random.uniform(1.5, 1.75), 2))
@@ -42,20 +63,22 @@ def goToPokeCenter(dead = False):
     press("space")
     time.sleep(round(random.uniform(1.5, 1.75), 2))
     press("space")
-    time.sleep(round(random.uniform(7.5, 7.75), 2))
+    time.sleep(round(random.uniform(6.5, 6.75), 2))
     press("space")
     time.sleep(round(random.uniform(1.5, 1.75), 2))
     press("space")
     time.sleep(round(random.uniform(1.5, 1.75), 2))
+    keyDown("shift")
     keyDown("s")
-    time.sleep(5)
+    time.sleep(3.5)
     keyUp("s")
     keyDown("q")
-    time.sleep(1.5)
+    time.sleep(1.25)
     keyUp("q")
     keyDown("s")
-    time.sleep(3)
+    time.sleep(2)
     keyUp("s")
+    keyUp("shift")
 
 def restorePP():
     time.sleep(round(random.uniform(4, 4.5), 2))
@@ -95,12 +118,17 @@ def fishingCycle():
             chat = lireDialogueCombat()
             if "plus de PP" in chat or "Miaouss est K.O" in chat:
                 goToPokeCenter("Miaouss est K.O" in chat)
-                break
+                return 0
             time.sleep(round(random.uniform(0.25, 0.75), 2))
             press("space", presses=2)
-        log(f"{datetime.datetime.now().strftime('%H:%M:%S')} : Fin d'un combat")
+        chat = lireDialogueCombat()
+        if ("$" in chat):
+            updateStats(money = int(chat.split("obtient ")[1].split(" $")[0]), drop="") 
         time.sleep(round(random.uniform(1, 1.5), 2))
-        
+        chat = lireDialogueCombat()
+        log(f"{datetime.datetime.now().strftime('%H:%M:%S')} : Fin d'un combat")
+        if "sac" in chat:
+            updateStats(money = 0, drop=chat.split("a mis le ")[1].split(" dans")[0])
     elif "rien" in text:
         press("space")  
         log("Rien de rien...")
@@ -108,6 +136,7 @@ def fishingCycle():
     
     else:
         log("Erreur lors du cycle de pêche")
+        return 0
 
 def getTextFromDialogue():
     return pytesseract.image_to_string(pyautogui.screenshot(region=regionDialogue))
@@ -123,7 +152,7 @@ def historiqueWrite(text):
     file.close()
 
 def historiqueRead():
-    file = open("historiqueCombat.txt","r")
+    file = open("historiqueCombat.txt","r", encoding='utf-8', errors='ignore')
     lines = file.readlines()
     if lines == []: # Si dossier vide
         historiqueWrite(f"{datetime.datetime.now().strftime('%H:%M:%S')} : Création du fichier\n")
