@@ -1,0 +1,1401 @@
+23:54:14 : Création du fichier
+23:54:14 : Début du script
+Retour au centre pokémon.
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+23:55:06 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+Retour au centre pokémon.
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Retour au centre pokémon.
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Retour au centre pokémon.
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+10:56:58 : Début d'un combat
+
+[Combat] Nodul obtient 410 $!
+10:57:11 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+10:58:10 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Hydrocanorn!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 846 points Exp.!
+[Combat] Miaouss a gagné 846 points Exp.!
+[Combat] Miaouss monte au N. 81!
+[Combat] Nodul obtient 510 $!
+10:58:32 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+10:58:50 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage utilise Hydrocanon!
+[Combat] Le Rémoraid sauvage utilise Hydrocanon!
+[Combat] Le Rémoraid sauvage utilise Hydrocanon!
+[Combat] Le Rémoraid sauvage utilise Hydrocanon!
+[Combat] Le Rémoraid sauvage utilise Hydrocanon!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Miaouss a gagné 590 points Exp.!
+[Combat] Miaouss a gagné 590 points Exp.!
+[Combat] Nodul obtient 550 $!
+10:59:10 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+10:59:28 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 730 points Exp.!
+[Combat] Miaouss a gagné 730 points Exp.!
+[Combat] Nodul obtient 440 $!
+10:59:40 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:00:54 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 579 points Exp.!
+[Combat] Nodul obtient 540 $!
+11:01:07 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:01:24 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 647 points Exp.!
+[Combat] Miaouss a gagné 647 points Exp.!
+[Combat] Nodul obtient 390 $!
+11:01:37 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:01:54 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 450 points Exp.!
+[Combat] Miaouss a gagné 450 points Exp.!
+[Combat] Nodul obtient 420 $!
+11:02:07 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:02:25 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 408 points Exp.!
+[Combat] Nodul obtient 380 $!
+11:02:37 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:02:55 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Hydrocanorn!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 763 points Exp.!
+[Combat] Miaouss a gagné 763 points Exp.!
+[Combat] Nodul obtient 460 $!
+11:03:15 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:03:38 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 614 points Exp.!
+[Combat] Nodul obtient 370 $!
+11:03:50 : Fin d'un combat
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Erreur lors du cycle de pêche
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:10:22 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 418 points Exp.!
+[Combat] Nodul obtient 390 $!
+11:10:34 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:11:02 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Miaouss prend le type Eau!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 812 points Exp.!
+[Combat] Miaouss a gagné 812 points Exp.!
+[Combat] Nodul obtient 490 $!
+11:11:22 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:11:45 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Laser Glace!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.O.!
+[Combat] Miaouss a gagné 456 points Exp.!
+[Combat] Miaouss a gagné 456 points Exp.!
+[Combat] Nodul obtient 420 $!
+11:12:04 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:12:27 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 558 points Exp.!
+[Combat] Nodul obtient 520 $!
+11:12:40 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:13:08 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 429 points Exp.!
+[Combat] Miaouss a gagné 429 points Exp.!
+[Combat] Nodul obtient 400 $!
+11:13:21 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:13:38 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 493 points Exp.!
+[Combat] Nodul obtient 460 $!
+11:13:50 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:14:23 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Rune Protect!
+[Combat] L'équipe ennemie est recouverte par un voile!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 862 points Exp.!
+[Combat] Miaouss a gagné 862 points Exp.!
+[Combat] Nodul obtient 520 $!
+11:14:44 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:15:07 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Une pluie de piéces!
+[Combat] Le Rémoraid sauvage utilise Hydrocanon!
+[Combat] Miaouss évite l'attaque!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Miaouss a gagné 579 points Exp.!
+[Combat] Nodul obtient 540 $!
+11:15:25 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:15:42 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 397 points Exp.!
+[Combat] Miaouss a gagné 397 points Exp.!
+[Combat] Nodul obtient 370 $!
+11:15:55 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:16:18 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage utilise Laser Glace!
+[Combat] Le Rémoraid sauvage utilise Laser Glace!
+[Combat] Le Rémoraid sauvage utilise Laser Glace!
+[Combat] Le Rémoraid sauvage utilise Laser Glace!
+[Combat] Le Rémoraid sauvage utilise Laser Glace!
+[Combat] Le Rémoraid sauvage utilise Laser Glace!
+[Combat] Miaouss est K.O.!
+Retour au centre pokémon.
+11:17:18 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:17:35 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage utilise Ultralaser!
+[Combat] Le Rémoraid sauvage utilise Ultralaser!
+[Combat] Le Rémoraid sauvage utilise Ultralaser!
+[Combat] Le Rémoraid sauvage utilise Ultralaser!
+[Combat] Le Rémoraid sauvage utilise Ultralaser!
+[Combat] Miaouss utilise Jackp:
+[Combat] Coup critique!
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Miaouss a gagné 568 points Exp.!
+[Combat] Nodul obtient 530 $!
+11:17:56 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:18:24 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Coup critique!
+[Combat] Le Kokiyas sauvage utilise Exuviation!
+[Combat] Défense et Déf. Spé du Kokiyas sauvage diminue !
+[Combat] Défense et Déf. Spé du Kokiyas sauvage diminue !
+beaucoup !
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.0.!
+[Combat] Miaouss a gagné 587 points Exp.!
+[Combat] Nodul obtient 540 $!
+11:18:49 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:19:11 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 440 points Exp.!
+[Combat] Nodul obtient 410 $!
+11:19:24 : Fin d'un combat
+Erreur lors du cycle de pêche
+Retour au centre pokémon.
+Un Pokémon a mordu a l'hameçon!
+11:21:59 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 472 points Exp.!
+[Combat] Miaouss a gagné 472 points Exp.!
+[Combat] Nodul obtient 440 $!
+11:22:12 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:22:35 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Hydrocanon!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.0.!
+[Combat] Miaouss a gagné 511 points Exp.!
+[Combat] Nodul obtient 470 $!
+11:22:55 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:23:12 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Hydrocanon!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Laser Glace!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.0.!
+[Combat] Miaouss a gagné 543 points Exp.!
+[Combat] Miaouss a gagné 543 points Exp.!
+[Combat] Nodul obtient 500 $!
+11:23:38 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:24:11 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 647 points Exp.!
+[Combat] Miaouss a gagné 647 points Exp.!
+[Combat] Nodul obtient 390 $!
+11:24:23 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:25:12 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 375 points Exp.!
+[Combat] Miaouss a gagné 375 points Exp.!
+[Combat] Nodul obtient 350 $!
+11:25:25 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:25:42 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 630 points Exp.!
+[Combat] Miaouss a gagné 630 points Exp.!
+[Combat] Nodul obtient 380 $!
+11:25:55 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:26:12 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Miaouss prend le type Eau!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 912 points Exp.!
+[Combat] Nodul obtient 550 $!
+11:26:33 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:26:51 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 525 points Exp.!
+[Combat] Nodul obtient 490 $!
+11:27:03 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:27:20 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Une pluie de piéces!
+[Combat] Le Kokiyas sauvage utilise Hydrocanon!
+[Combat] Miaouss évite l'attaque!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Laser Glace!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.0.!
+[Combat] Miaouss a gagné 554 points Exp.!
+[Combat] Miaouss a gagné 554 points Exp.!
+[Combat] Nodul obtient 510 $!
+11:27:46 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:28:14 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Miaouss prend le type Eau!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 713 points Exp.!
+[Combat] Nodul obtient 430 $!
+11:28:34 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:28:51 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Hydrocanon!
+[Combat] Miaouss est K.O.!
+Retour au centre pokémon.
+11:29:52 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:30:15 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Une pluie de piéces!
+[Combat] Le Lovdisc sauvage utilise Anneau Hydro!
+[Combat] Le Lovdisc sauvage s'entoure d'un voile d'eau!
+[Combat] Le voile d'eau restaure les PV duLovdisc sauvage!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 895 points Exp.!
+[Combat] Miaouss a gagné 895 points Exp.!
+[Combat] Nodul obtient 540 $!
+11:30:38 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:31:00 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 504 points Exp.!
+[Combat] Nodul obtient 470 $!
+11:31:13 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:31:41 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 429 points Exp.!
+[Combat] Nodul obtient 400 $!
+11:31:53 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:32:11 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Bélier!
+[Combat] Le Lovdisc sauvage utilise Bélier!
+[Combat] Le Lovdisc sauvage utilise Bélier!
+[Combat] Le Lovdisc sauvage utilise Bélier!
+[Combat] Le Lovdisc sauvage est blessé par le contrecoup!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 713 points Exp.!
+[Combat] Miaouss a gagné 713 points Exp.!
+[Combat] Miaouss a gagné 713 points Exp.!
+[Combat] Miaouss monte au N. 82!
+[Combat] Nodul obtient 430 $!
+11:32:32 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:32:49 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Miaouss prend le type Eau!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 696 points Exp.!
+[Combat] Nodul obtient 420 $!
+11:33:10 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:33:27 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Le Lovdisc sauvage utilise Détrempage!
+[Combat] Miaouss prend le type Eau!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 713 points Exp.!
+[Combat] Miaouss a gagné 713 points Exp.!
+[Combat] Nodul obtient 430 $!
+11:33:48 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:34:05 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Saumure!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Hydrocanon!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.0.!
+[Combat] Miaouss a gagné 489 points Exp.!
+[Combat] Nodul obtient 450 $!
+11:34:32 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:34:54 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Hydrocanon!
+[Combat] Coup critique!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.0.!
+[Combat] Miaouss a gagné 500 points Exp.!
+[Combat] Miaouss a gagné 500 points Exp.!
+[Combat] Nodul obtient 460 $!
+11:35:17 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:35:40 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 614 points Exp.!
+[Combat] Miaouss a gagné 614 points Exp.!
+[Combat] Nodul obtient 370 $!
+11:35:53 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:36:10 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Mur de Fer!
+[Combat] La Défense du Kokiyas sauvage augmente beaucoup!
+[Combat] La Défense du Kokiyas sauvage augmente beaucoup!
+[Combat] La Défense du Kokiyas sauvage augmente beaucoup!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.0.!
+[Combat] Miaouss a gagné 402 points Exp.!
+[Combat] Nodul obtient 370 $!
+11:36:32 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:36:50 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 375 points Exp.!
+[Combat] Miaouss a gagné 375 points Exp.!
+[Combat] Nodul obtient 350 $!
+11:37:03 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:37:30 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 483 points Exp.!
+[Combat] Miaouss a gagné 483 points Exp.!
+[Combat] Nodul obtient 450 $!
+11:37:44 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:38:06 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Le Lovdisc sauvage utilise Séduction!
+[Combat] Mais cela échoue!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 663 points Exp.!
+[Combat] Nodul obtient 400 $!
+11:38:24 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:38:52 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Coup critique!
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 846 points Exp.!
+[Combat] Miaouss a gagné 846 points Exp.!
+[Combat] Nodul obtient 510 $!
+11:39:06 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:39:24 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 515 points Exp.!
+[Combat] Nodul obtient 480 $!
+11:39:37 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:39:54 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 450 points Exp.!
+[Combat] Miaouss a gagné 450 points Exp.!
+[Combat] Nodul obtient 420 $!
+11:40:07 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:40:24 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Exuviation!
+[Combat] Défense et Déf. Spé du Kokiyas sauvage diminue !
+[Combat] Défense et Déf. Spé du Kokiyas sauvage diminue !
+beaucoup !
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.0.!
+[Combat] Miaouss a gagné 554 points Exp.!
+[Combat] Miaouss a gagné 554 points Exp.!
+[Combat] Nodul obtient 510 $!
+11:40:47 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:41:05 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 504 points Exp.!
+[Combat] Nodul obtient 470 $!
+11:41:18 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:41:35 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Mais il n'y a plus de PP pour cette capacité!
+Retour au centre pokémon.
+11:42:25 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:42:58 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage utilise Détrempage!
+[Combat] Le Rémoraid sauvage utilise Détrempage!
+[Combat] Le Rémoraid sauvage utilise Détrempage!
+[Combat] Le Rémoraid sauvage utilise Détrempage!
+[Combat] Miaouss prend le type Eau!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Miaouss a gagné 525 points Exp.!
+[Combat] Miaouss a gagné 525 points Exp.!
+[Combat] Nodul obtient 490 $!
+11:43:19 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:43:37 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 461 points Exp.!
+[Combat] Miaouss a gagné 461 points Exp.!
+[Combat] Nodul obtient 430 $!
+11:43:50 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:44:13 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Coquilame!
+[Combat] La Défense de Miaouss baisse!
+[Combat] La Défense de Miaouss baisse!
+[Combat] La Défense de Miaouss baisse!
+[Combat] La Défense de Miaouss baisse!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.0.!
+[Combat] Miaouss a gagné 380 points Exp.!
+[Combat] Nodul obtient 350 $!
+11:44:35 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:44:53 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Rune Protect!
+[Combat] L'équipe ennemie est recouverte par un voile!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 812 points Exp.!
+[Combat] Miaouss a gagné 812 points Exp.!
+[Combat] Nodul obtient 490 $!
+11:45:13 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:46:02 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 713 points Exp.!
+[Combat] Miaouss a gagné 713 points Exp.!
+[Combat] Nodul obtient 430 $!
+11:46:15 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:46:37 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 630 points Exp.!
+[Combat] Miaouss a gagné 630 points Exp.!
+[Combat] Nodul obtient 380 $!
+11:46:49 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:47:07 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 429 points Exp.!
+[Combat] Miaouss a gagné 429 points Exp.!
+[Combat] Nodul obtient 400 $!
+11:47:20 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:47:37 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 408 points Exp.!
+[Combat] Nodul obtient 380 $!
+11:47:50 : Fin d'un combat
+Erreur lors du cycle de pêche
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:48:22 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage utilise Hydrocanon!
+[Combat] Le Rémoraid sauvage utilise Hydrocanon!
+[Combat] Le Rémoraid sauvage utilise Hydrocanon!
+[Combat] Le Rémoraid sauvage utilise Hydrocanon!
+[Combat] Le Rémoraid sauvage utilise Hydrocanon!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Miaouss a gagné 547 points Exp.!
+[Combat] Nodul obtient 510 $!
+11:48:43 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:49:11 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 440 points Exp.!
+[Combat] Miaouss a gagné 440 points Exp.!
+[Combat] Nodul obtient 410 $!
+11:49:23 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:49:51 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Laser Glace!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Saumure!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.O.!
+[Combat] Miaouss a gagné 576 points Exp.!
+[Combat] Miaouss a gagné 576 points Exp.!
+[Combat] Nodul obtient 530 $!
+11:50:16 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:50:44 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 450 points Exp.!
+[Combat] Nodul obtient 420 $!
+11:50:57 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:51:14 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Laser Glace!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.O.!
+[Combat] Miaouss a gagné 446 points Exp.!
+[Combat] Nodul obtient 410 $!
+11:51:33 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+11:51:50 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Anneau Hydro!
+[Combat] Le Lovdisc sauvage s'entoure d'un voile d'eau!
+[Combat] Le voile d'eau restaure les PV duLovdisc sauvage!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 746 points Exp.!
+[Combat] Nodul obtient 450 $!
+11:52:14 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+11:52:36 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Une pluie de piéces!
+[Combat] Le Lovdisc sauvage utilise Bélier!
+[Combat] Miaouss évite l'attaque!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 730 points Exp.!
+[Combat] Miaouss a gagné 730 points Exp.!
+[Combat] Nodul obtient 440 $!
+11:52:55 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+Un Pokémon a mordu a l'hameçon!
+15:55:40 : Début d'un combat
+
+[Combat] Le voile d'eau restaure les PV duLovdisc sauvage!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 862 points Exp.!
+[Combat] Miaouss a gagné 862 points Exp.!
+[Combat] Nodul obtient 520 $!
+15:56:04 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+15:56:47 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 713 points Exp.!
+[Combat] Miaouss a gagné 713 points Exp.!
+[Combat] Nodul obtient 430 $!
+15:56:59 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+15:57:27 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 680 points Exp.!
+[Combat] Nodul obtient 410 $!
+15:57:40 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+15:57:57 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Hydrocanorn!
+[Combat] Coup critique!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 862 points Exp.!
+[Combat] Miaouss a gagné 862 points Exp.!
+[Combat] Nodul obtient 520 $!
+15:58:19 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+15:58:36 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 647 points Exp.!
+[Combat] Miaouss a gagné 647 points Exp.!
+[Combat] Nodul obtient 390 $!
+15:58:49 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+15:59:22 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 597 points Exp.!
+[Combat] Miaouss a gagné 597 points Exp.!
+[Combat] Miaouss monte au N. 83!
+[Combat] Nodul obtient 360 $!
+15:59:36 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+16:00:04 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 568 points Exp.!
+[Combat] Miaouss a gagné 568 points Exp.!
+[Combat] Nodul obtient 530 $!
+16:00:17 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+16:01:05 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage utilise Mur de Fer!
+[Combat] La Défense du Kokiyas sauvage augmente beaucoup!
+[Combat] La Défense du Kokiyas sauvage augmente beaucoup!
+[Combat] La Défense du Kokiyas sauvage augmente beaucoup!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Kokiyas sauvage est K.0.!
+[Combat] Miaouss a gagné 467 points Exp.!
+[Combat] Nodul obtient 430 $!
+16:01:27 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+16:01:49 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 375 points Exp.!
+[Combat] Nodul obtient 350 $!
+16:02:01 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+16:02:19 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Coup critique!
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 515 points Exp.!
+[Combat] Miaouss a gagné 515 points Exp.!
+[Combat] Nodul obtient 480 $!
+16:02:33 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+16:02:55 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 504 points Exp.!
+[Combat] Miaouss a gagné 504 points Exp.!
+[Combat] Nodul obtient 470 $!
+16:03:08 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+16:03:25 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 375 points Exp.!
+[Combat] Nodul obtient 350 $!
+16:03:38 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+16:04:00 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 450 points Exp.!
+[Combat] Nodul obtient 420 $!
+16:04:13 : Fin d'un combat
+Erreur lors du cycle de pêche
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+16:04:46 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 450 points Exp.!
+[Combat] Nodul obtient 420 $!
+16:04:58 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+16:05:21 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Le Rémoraid sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 504 points Exp.!
+[Combat] Miaouss a gagné 504 points Exp.!
+[Combat] Nodul obtient 470 $!
+16:05:33 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+16:06:17 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 597 points Exp.!
+[Combat] Nodul obtient 360 $!
+16:06:29 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+16:06:46 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Rune Protect!
+[Combat] L'équipe ennemie est recouverte par un voile!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Miaouss a gagné 812 points Exp.!
+[Combat] Nodul obtient 490 $!
+16:07:06 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+16:07:24 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 614 points Exp.!
+[Combat] Miaouss a gagné 614 points Exp.!
+[Combat] Nodul obtient 370 $!
+16:07:36 : Fin d'un combat
+Rien de rien...
+Un Pokémon a mordu a l'hameçon!
+16:08:19 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 408 points Exp.!
+[Combat] Miaouss a gagné 408 points Exp.!
+[Combat] Nodul obtient 380 $!
+16:08:33 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+16:08:50 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Le Rémoraid sauvage est K.0.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 536 points Exp.!
+[Combat] Miaouss a gagné 536 points Exp.!
+[Combat] Nodul obtient 500 $!
+16:09:03 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+16:09:20 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage est K.O.!
+[Combat] Une pluie de piéces!
+[Combat] Miaouss a gagné 580 points Exp.!
+[Combat] Nodul obtient 350 $!
+16:09:32 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
+16:09:50 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss utilise Jackp:
+[Combat] Le Lovdisc sauvage utilise Anneau Hydro!
+[Combat] Le Lovdisc sauvage s'entoure d'un voile d'eau!
+[Combat] Le voile d'eau restaure les PV duLovdisc sauvage!
+Un Pokémon a mordu a l'hameçon!
+16:16:09 : Début d'un combat
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Miaouss est envoyé par Nodul!
+[Combat] Mais il n'y a plus de PP pour cette capacité!
+Retour au centre pokémon.
+16:17:00 : Fin d'un combat
+Un Pokémon a mordu a l'hameçon!
