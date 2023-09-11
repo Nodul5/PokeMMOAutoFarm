@@ -1,9 +1,0 @@
-KEY_FISHING = '"'
-KEY_TELEPORT = "ç"
-KEY_ENTER = "space"
-KEY_CANCEL = "shift"
-KEY_UP = "z"
-KEY_LEFT = "q"
-KEY_DOWN = "s"
-KEY_RIGHT = "d"
-MIAOUSS_NAME = "Miaouss"
