@@ -2,8 +2,6 @@ from pyautogui import *
 from bin.constant import *
 import os, time, random, chat, pytesseract, farm
 
-os.chdir("1.1")
-
 ## Initialisation du programme en cliquant dans la fenêtre PokéMMO
 click(1280,800)
 
