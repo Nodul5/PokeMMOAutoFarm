@@ -10,9 +10,9 @@ class Chat:
         self.engine = pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
     def write(self, text):
-        press(KEY_ENTER)
+        press('enter')
         write(text, interval=0.1)
-        press(KEY_ENTER)
+        press('enter')
 
     def teamWrite(self, text):
         self.write(f"/team {text}")
