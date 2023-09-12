@@ -16,7 +16,9 @@ class Screenshot:
         self.getPokeMMOWindowInfo() # Met à jour le self.hwnd, position et size
         win32gui.SetForegroundWindow(self.hwnd) # Met la fenetre au premier plan
         time.sleep(1)
-        self.screenshot = np.array(self.screenshotPokeMMOWindow())
+
+        self.screenshot = np.array(self.screenshotPokeMMOWindow())#.convert('RGB'))
+
         return self.cropChat()
 
     
@@ -33,11 +35,15 @@ class Screenshot:
         # Récupération du contour du chat
         contours = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         contours = contours[0] if len(contours) == 2 else contours[1]
-        big_contour = max(contours, key=cv2.contourArea)
-        x,y,w,h = cv2.boundingRect(big_contour)
+        if(len(contours) > 0):
+            big_contour = max(contours, key=cv2.contourArea)
+            x,y,w,h = cv2.boundingRect(big_contour)
 
-        self.cropped = self.screenshot[y:y+h-CHAT_PADDING, x:x+w]
-        return self.cropped
+            self.cropped = self.screenshot[y:y+h-CHAT_PADDING, x:x+w]
+            return self.cropped
+        else:
+            return None
+        
     
     def convertWindowTitleUnicodeCaractersIntoAscii(self, string):
             ## https://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode

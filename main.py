@@ -9,9 +9,16 @@ import os, time, random, chat, pytesseract, farm
 ## Détecter la dernière ligne
 chat = chat.Chat()
 image1 = Screenshot()
-print(image1.getChat())
-print(chat.imageToText(image1.getChat()))
-#chat.start()
+imageChat = image1.getChat()
+
+if(imageChat is not None):
+    cv2.imshow("Chat",imageChat)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+    print(chat.imageToText(image1.getChat()))
+else:
+    print("ERREUR : Chat introuvable")
 
 ## Combattre en fonction des coordonnées de la dernière ligne
 #farm = farm.Farm(chat)
