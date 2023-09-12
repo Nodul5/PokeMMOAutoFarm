@@ -13,10 +13,11 @@ class Chat:
         self.position = (0,0)
         self.size = (0,0)
 
-        self.getPokeMMOWindowInfo()
+        self.getPokeMMOWindowInfo() # Met à jour le self.hwnd, position et size
 
+        print(self.hwnd)
         win32gui.SetForegroundWindow(self.hwnd) # Met la fenetre au Premier plan
-
+        time.sleep(1)
         self.screenshotPokeMMOWindow().show()
         
 
@@ -60,7 +61,7 @@ class Chat:
         return string
 
     def getWindowInfo(self, hwnd, extra):
-        print(f"Window Title : {win32gui.GetWindowText(hwnd)}")
+        if(win32gui.GetWindowText(hwnd) != ""): print(f"Window Title : {win32gui.GetWindowText(hwnd)}")
         if(WINDOW_NAME == self.convertWindowTitleUnicodeCaractersIntoAscii(win32gui.GetWindowText(hwnd))): 
             self.hwnd = hwnd
             rect = win32gui.GetWindowRect(hwnd)
