@@ -5,8 +5,8 @@ import time, random
 
 class Farm:
     def __init__(self, chat) -> None:
-        self.recompenses = []
-        self.money = 0
+        self.earnings = []
+        self.cash = 0
         self.chat = chat
         self.dead = False
 
