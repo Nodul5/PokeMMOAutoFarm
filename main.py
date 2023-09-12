@@ -1,11 +1,16 @@
 from pyautogui import *
 from bin.constant import *
+from bin.screenshot import *
+
 import os, time, random, chat, pytesseract, farm
 
 # TODO Etablir plusieurs fonctions goToPokecenter pour pouvoir choisir entre plusieurs spots de farm.
 
 ## Détecter la dernière ligne
 chat = chat.Chat()
+image1 = Screenshot()
+print(image1.getChat())
+print(chat.imageToText(image1.getChat()))
 #chat.start()
 
 ## Combattre en fonction des coordonnées de la dernière ligne
