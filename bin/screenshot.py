@@ -43,7 +43,6 @@ class Screenshot:
             return self.cropped
         else:
             return None
-        
     
     def convertWindowTitleUnicodeCaractersIntoAscii(self, string):
             ## https://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode
@@ -72,9 +71,7 @@ class Screenshot:
             raise RuntimeError("La fenêtre PokeMMO n'a pas été trouvée !")
         
     def screenshotPokeMMOWindow(self):
-        self.getPokeMMOWindowInfo() # Met à jour le self.hwnd, position et size
-        win32gui.SetForegroundWindow(self.hwnd) # Met la fenetre au premier plan
-        time.sleep(1)
+        self.getFocus()
         self.dimensions = list(win32gui.GetWindowRect(self.hwnd))
         self.dimensions[0] += 8
         self.dimensions[3] -= 8
@@ -85,7 +82,12 @@ class Screenshot:
         if(self.cropped is None):
             self.getChat()
         h,w = np.shape(self.cropped)[0:2]
-        cv2.imshow('result',self.cropped[h-26:h, 0:w])
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+        #cv2.imshow('result',self.cropped[h-26:h, 0:w])
+        #cv2.waitKey(0)
+        #cv2.destroyAllWindows()
         return self.cropped[h-26:h, 0:w]
+
+    def getFocus(self):
+        self.getPokeMMOWindowInfo() # Met à jour le self.hwnd, position et size
+        win32gui.SetForegroundWindow(self.hwnd) # Met la fenetre au premier plan
+        time.sleep(1)
