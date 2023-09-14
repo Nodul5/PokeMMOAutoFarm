@@ -10,15 +10,19 @@ import os, time, random, chat, pytesseract, farm
 chat = chat.Chat()
 image1 = Screenshot()
 imageChat = image1.getChat()
+boxes = image1.getChatLineBoxes()
+
+#n_boxes = len(boxes['level'])
+#for i in range(n_boxes):
+#    if (boxes['text'][i] != ""):
+#        (x, y, w, h) = (boxes['left'][i], boxes['top'][i], boxes['width'][i], boxes['height'][i])
+#        print(x,y,w,h)
 
 if(imageChat is not None):
-    cv2.imshow("Chat",imageChat)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-
-    print(chat.imageToText(image1.getChat()))
+    print(chat.imageToText(imageChat))
 else:
     print("ERREUR : Chat introuvable")
+
 
 ## Combattre en fonction des coordonnées de la dernière ligne
 #farm = farm.Farm(chat)

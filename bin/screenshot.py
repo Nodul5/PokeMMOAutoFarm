@@ -3,6 +3,7 @@ from PIL import ImageGrab, Image
 import cv2
 import numpy as np
 import win32gui, time
+import pytesseract
 
 ## CONSTANT
 CHAT_PADDING = 33
@@ -13,23 +14,21 @@ class Screenshot:
         self.screenshot = None
 
     def getChat(self):
-        self.getPokeMMOWindowInfo() # Met à jour le self.hwnd, position et size
-        win32gui.SetForegroundWindow(self.hwnd) # Met la fenetre au premier plan
-        time.sleep(1)
-
-        self.screenshot = np.array(self.screenshotPokeMMOWindow())#.convert('RGB'))
-
+        self.screenshot = self.screenshotPokeMMOWindow()
         return self.cropChat()
-
     
+    def getChatLineBoxes(self):
+        self.screenshot = self.screenshotPokeMMOWindow()
+        return pytesseract.image_to_boxes(self.screenshot, output_type=pytesseract.Output.DICT)
+
     def cropChat(self):
         # On prend le quart bas gauche du screen
         ht, wd = self.screenshot.shape[:2]
         self.screenshot = self.screenshot[int(ht/2):ht, 0:int(wd/2)]
 
         ## Mask en fonction de la couleur de fond du chat : #222222
-        BlueMin = np.array([34, 34, 34],np.uint8)
-        BlueMax = np.array([34, 34, 34],np.uint8)
+        BlueMin = np.array([33, 33, 33],np.uint8)
+        BlueMax = np.array([35, 35, 35],np.uint8)
         mask = cv2.inRange(self.screenshot, BlueMin, BlueMax)
             
         # Récupération du contour du chat
@@ -72,7 +71,11 @@ class Screenshot:
             raise RuntimeError("La fenêtre PokeMMO n'a pas été trouvée !")
         
     def screenshotPokeMMOWindow(self):
+        self.getPokeMMOWindowInfo() # Met à jour le self.hwnd, position et size
+        win32gui.SetForegroundWindow(self.hwnd) # Met la fenetre au premier plan
+        time.sleep(1)
         self.dimensions = list(win32gui.GetWindowRect(self.hwnd))
         self.dimensions[0] += 8
         self.dimensions[3] -= 8
-        return ImageGrab.grab(self.dimensions, all_screens=True)
+        screen = ImageGrab.grab(self.dimensions, all_screens=True)
+        return np.asarray(screen)[:, :, ::-1]
