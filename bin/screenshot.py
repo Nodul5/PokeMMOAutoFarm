@@ -12,6 +12,7 @@ class Screenshot:
     def __init__(self):
         self.hwnd = 0 # Entier qui permet d'identifier la fenetre avec win32gui
         self.screenshot = None
+        self.cropped = None
 
     def getChat(self):
         self.screenshot = self.screenshotPokeMMOWindow()
@@ -79,3 +80,12 @@ class Screenshot:
         self.dimensions[3] -= 8
         screen = ImageGrab.grab(self.dimensions, all_screens=True)
         return np.asarray(screen)[:, :, ::-1]
+    
+    def getLastLine(self):
+        if(self.cropped is None):
+            self.getChat()
+        h,w = np.shape(self.cropped)[0:2]
+        cv2.imshow('result',self.cropped[h-26:h, 0:w])
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
+        return self.cropped[h-26:h, 0:w]

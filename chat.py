@@ -8,6 +8,8 @@ class Chat:
     def __init__(self):
         pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
         self.messageHistory = []
+        #for i in range(0,10):
+        #    self.teamWrite("test")
 
     def write(self, text):
         press('enter')
