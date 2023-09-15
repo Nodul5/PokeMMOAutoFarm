@@ -29,7 +29,20 @@ class Farm:
                 self.goToPokecenter2(FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)
     
     def xp(self):
+        # TODO 
+        # Etape 1 - Vol à Flocombe
+        # Etape 2 - Entrer dans le pokécentre puis se soigner
+        # Etape 3 - Aller dans la zone surf de la tour dracospire
+        # Etape 4 - Se placer sur l'eau et doux parfum
+        # Etape 5 - Se battre
+        # Etape 6 - Recommencer à l'étape 2 à l'infini
+        # Etape 7 - Se soigner quand plus de PP ou mort
+
         while True:
+            # Etape 1
+            self.flyTo('Flocombe')
+            
+            # Etape 2
             self.goToPokecenter1()
             lastLine = self.chat.getLastLine()
             if(f"{FIRST_POKEMON_NAME} est envoyé par" in lastLine):
@@ -76,36 +89,25 @@ class Farm:
             keyUp('q')
 
             keyDown('d')
-            time.sleep(0.6)
+            time.sleep(0.65)
             keyUp('d')
             keyDown('s')
-            time.sleep(0.45)
+            time.sleep(0.5)
             keyUp('s')
 
             self.keyUpkeyDown(KEY_VALID)
 
     def goToPokecenter1(self):
-        # TODO 
-        # Etape 1 - Vol à Flocombe
-        # Etape 2 - Entrer dans le pokécentre puis se soigner
-        # Etape 3 - Aller dans la zone surf de la tour dracospire
-        # Etape 4 - Se placer sur l'eau et doux parfum
-        # Etape 5 - Se battre
-        # Etape 6 - Recommencer à l'étape 4 à l'infini
-        # Etape 7 - Se soigner quand plus de PP ou mort
-
-        # Etape 1
         print("Entrer dans le pokécenter")
-        self.flyTo('Flocombe')
-
-        # Etape 2
-        print("Entrer dans le pokécenter")
-        keyDown('d')
-        self.wait(5)
-        keyUp('d')
-        for i in range(5):
-            self.keyUpkeyDown(KEY_VALID)
-            self.wait(3)
+        keyDown('z')
+        time.sleep(7)
+        keyUp('z')
+        keyDown(KEY_VALID)
+        time.sleep(8)
+        keyUp(KEY_VALID)
+        keyDown('s')
+        time.sleep(4)
+        keyUp('s')
 
         '''
         press(KEY_DOWN)
