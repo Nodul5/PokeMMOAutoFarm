@@ -11,6 +11,7 @@ class Farm:
         self.dead = False
 
     def money(self):
+        self.teleport()
         self.goToPokecenter2()
         while True:
             lastLine = self.chat.getLastLine()
