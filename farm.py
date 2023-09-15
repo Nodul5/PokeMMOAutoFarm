@@ -11,6 +11,7 @@ class Farm:
         self.dead = False
 
     def money(self):
+        self.goToPokecenter2()
         while True:
             lastLine = self.chat.getLastLine()
             self.fishingUntilGettingAFish()
@@ -139,7 +140,7 @@ class Farm:
         keyUp(KEY_CANCEL)
         '''
 
-    def goToPokecenter2(self, dead):
+    def goToPokecenter2(self, dead=False):
         if dead:
             self.switchToSecondPokemon()
         self.wait(7)
@@ -175,7 +176,7 @@ class Farm:
         keyUp(KEY_DOWN)
         keyUp(KEY_CANCEL)
 
-    def goToPokecenter(self, dead):
+    def goToPokecenter(self, dead=False):
         if dead:
             self.switchToSecondPokemon()
         self.wait(7)
