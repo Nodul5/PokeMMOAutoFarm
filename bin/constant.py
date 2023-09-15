@@ -11,7 +11,7 @@ WINDOW_NAME = "PokeMMO"
 
 # Informations diverses
 FIRST_POKEMON_NAME = "Miaouss"
-FARM_METHOD = "money" # money ou xp en fonction de ce que l'on veut farm
+FARM_METHOD = "xp" # money ou xp en fonction de ce que l'on veut farm
 
 # Touches de fonctionnement
 KEY_VOL = "("
