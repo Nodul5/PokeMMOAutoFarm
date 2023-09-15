@@ -13,7 +13,6 @@ click(1200,800)
 chat = Chat()
 
 print(chat.getLastLine())
-
 click(1200,800)
 time.sleep(random.uniform(1-0.5,1+0.5))
 
