@@ -60,13 +60,48 @@ class Farm:
         print("release",key)
         self.wait(0.5)
 
+    def flyTo(self,city):
+        if(city == "Flocombe"):
+            keyDown('(')
+            time.sleep(0.1)
+            keyUp('(')
+
+            keyDown('z')
+            time.sleep(5)
+            keyUp('z')
+            keyDown('q')
+            time.sleep(5)
+            keyUp('q')
+
+            keyDown('d')
+            time.sleep(0.6)
+            keyUp('d')
+            keyDown('s')
+            time.sleep(0.45)
+            keyUp('s')
+
+            self.keyUpkeyDown(KEY_VALID)
+
     def goToPokecenter1(self):
-        print("Go to pokecenter")
+        # TODO 
+        # Etape 1 - Vol à Flocombe
+        # Etape 2 - Entrer dans le pokécentre puis se soigner
+        # Etape 3 - Aller dans la zone surf de la tour dracospire
+        # Etape 4 - Se placer sur l'eau et doux parfum
+        # Etape 5 - Se battre
+        # Etape 6 - Recommencer à l'étape 4 à l'infini
+        # Etape 7 - Se soigner quand plus de PP ou mort
 
-        self.teleport()
+        # Etape 1
+        print("Entrer dans le pokécenter")
+        self.flyTo('Flocombe')
+
+        # Etape 2
+        print("Entrer dans le pokécenter")
+        keyDown('d')
         self.wait(5)
-
-        for i in range(10):
+        keyUp('d')
+        for i in range(5):
             self.keyUpkeyDown(KEY_VALID)
             self.wait(3)
 
@@ -178,6 +213,7 @@ class Farm:
 
     def teleport(self):
         press(KEY_TELEPORT)
+        self.wait(5)
 
     def runAway(self):
         press(KEY_DOWN)

@@ -9,7 +9,7 @@ import os, time, random, pytesseract, farm
 
 click(1200,800)
 
-## Détecter la dernière ligne
+## Détecter la dernière ligneds
 chat = Chat()
 
 print(chat.getLastLine())
