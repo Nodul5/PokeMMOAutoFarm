@@ -52,20 +52,25 @@ class Farm:
         self.wait(1)
         press(KEY_VALID)
 
+    def keyUpkeyDown(self,key):
+        keyDown(key)
+        print("press",key)
+        self.wait(0.5)
+        keyUp(key)
+        print("release",key)
+        self.wait(0.5)
+
     def goToPokecenter1(self):
         print("Go to pokecenter")
+
         self.teleport()
         self.wait(5)
-        press(KEY_UP)
-        self.wait(1)
-        press(KEY_UP)
-        self.wait(1)
-        press(KEY_VALID)
-        self.wait(6)
-        press(KEY_VALID)
-        self.wait(6)
-        press(KEY_VALID)
-        self.wait(6)
+
+        for i in range(10):
+            self.keyUpkeyDown(KEY_VALID)
+            self.wait(3)
+
+        '''
         press(KEY_DOWN)
         self.wait(2)
         press(KEY_RIGHT)
@@ -97,6 +102,7 @@ class Farm:
         self.wait(2)
         keyUp(KEY_DOWN)
         keyUp(KEY_CANCEL)
+        '''
 
     def goToPokecenter2(self, dead):
         if dead:

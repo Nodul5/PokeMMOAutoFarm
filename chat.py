@@ -15,10 +15,13 @@ class Chat:
     def start(self):
         for i in range(0,10):
             self.teamWrite("test")
+            print("test")
 
     def write(self, text):
         press('enter')
+        time.sleep(0.25)
         write(text, interval=0.1)
+        time.sleep(0.25)
         press('enter')
 
     def teamWrite(self, text):
@@ -41,7 +44,12 @@ class Chat:
     def getLastLine(self):
         image1 = Screenshot()
         imageLastLine = image1.getLastLine()
-        return imageLastLine
+        if(imageLastLine is not None):
+            return self.imageToText(imageLastLine)
+        else:
+            print("ERREUR : Chat introuvable")
+            return None
+        
         
     def getFocus(self):
         self.getPokeMMOWindowInfo() # Met à jour le self.hwnd, position et size

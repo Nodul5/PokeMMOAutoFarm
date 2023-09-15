@@ -71,7 +71,8 @@ class Screenshot:
             raise RuntimeError("La fenêtre PokeMMO n'a pas été trouvée !")
         
     def screenshotPokeMMOWindow(self):
-        self.getFocus()
+        #self.getFocus()
+        self.getPokeMMOWindowInfo() # Met à jour le self.hwnd, position et size
         self.dimensions = list(win32gui.GetWindowRect(self.hwnd))
         self.dimensions[0] += 8
         self.dimensions[3] -= 8
