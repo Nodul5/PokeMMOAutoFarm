@@ -21,7 +21,7 @@ time.sleep(random.uniform(1-0.5,1+0.5))
 farm = farm.Farm(chat)
 
 if(FARM_METHOD == "money"):
-    farm.money()
+    farm.money("vaguelone-farmMONEY")
 elif(FARM_METHOD == "xp"):
     farm.xp()
 else:

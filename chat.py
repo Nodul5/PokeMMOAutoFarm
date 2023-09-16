@@ -31,7 +31,11 @@ class Chat:
         return pytesseract.image_to_string(image)
     
     def saveInHistory(self, text):
-        self.messageHistory.append(text)
+        if(len(self.messageHistory) > 0):
+            if(self.messageHistory[-1] != text):
+                self.messageHistory.append(text)
+        else:
+            self.messageHistory.append(text)
 
     def checkIfInHistory(self, text):
         return text in self.messageHistory
@@ -45,7 +49,9 @@ class Chat:
         image1 = Screenshot()
         imageLastLine = image1.getLastLine()
         if(imageLastLine is not None):
-            return self.imageToText(imageLastLine)
+            text = self.imageToText(imageLastLine)
+            self.saveInHistory(text.replace("\n",""))
+            return text
         else:
             print("ERREUR : Chat introuvable")
             return None
@@ -76,6 +82,3 @@ class Chat:
         string = string.replace(u"\u041c","M")
         string = string.replace(u"\u041e", "O")
         return string
-    
-    def inFight(self) -> bool:
-        return  not("$" in self.messageHistory[-1] or "sac" in self.messageHistory[-1])

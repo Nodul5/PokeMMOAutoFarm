@@ -1,0 +1,8 @@
+keyDown;KEY_CANCEL
+keyDown;KEY_LEFT
+wait;1
+keyUp;KEY_LEFT
+keyDown;KEY_DOWN
+wait;2
+keyUp;KEY_DOWN
+keyUp;KEY_CANCEL

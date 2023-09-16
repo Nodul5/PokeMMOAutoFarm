@@ -1,33 +1,39 @@
 from pyautogui import *
 from bin.constant import *
+from chat import *
 
 import time, random
 
 class Farm:
-    def __init__(self, chat) -> None:
+    def __init__(self, chat: Chat) -> None:
         self.earnings = []
         self.cash = 0
         self.chat = chat
+        self.inFight = False
         self.dead = False
 
-    def money(self):
-        self.teleport()
-        self.goToPokecenter2()
+    def money(self, farmSpot):
+        self.goHealAndGoBack(farmSpot)
         while True:
-            lastLine = self.chat.getLastLine()
-            self.fishingUntilGettingAFish()
-            if(f"{FIRST_POKEMON_NAME} est envoyé par" in lastLine):
-                self.wait(3)
-                self.jackpot()
-            elif(f"Restes de {FIRST_POKEMON_NAME}" in lastLine):
-                self.wait(3)
-                self.jackpot()
-            elif("plus de PP" in lastLine or (FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)):
-                self.wait(3)
-                self.runAway()
-                self.wait(5)
-                self.goToPokecenter2(FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)
-    
+            if(self.inFight):
+                lastLine = self.chat.getLastLine()
+                if(f"est envoyé par" in lastLine):
+                    self.wait(3)
+                    self.csvInterpreter("jackpot")
+                    print("test")
+                elif(f"Restes de " in lastLine):
+                    self.wait(3)
+                    self.csvInterpreter("jackpot")
+                    print("test")
+                elif("plus de PP" in lastLine or (FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)):
+                    self.inFight = False
+                    self.goHealAndGoBack(farmSpot, FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)
+                elif("$" in lastLine or "sac" in lastLine):
+                    self.inFight = False
+            else:
+                self.fishingUntilGettingAFish()
+                
+
     def xp(self):
         # TODO 
         # Etape 1 - Vol à Flocombe
@@ -44,7 +50,7 @@ class Farm:
             self.csvInterpreter('flocombe-flyTo')
 
             # Etape 2
-            self.csvInterpreter('flocombe-pokecenter')
+            self.csvInterpreter('pokecenter')
             #self.goToPokecenter1()
             lastLine = self.chat.getLastLine()
             if(f"{FIRST_POKEMON_NAME} est envoyé par" in lastLine):
@@ -68,6 +74,7 @@ class Farm:
         press(RIGHT)
         self.wait(1)
         press(KEY_VALID)
+        self.wait(7)
 
     def keyUpkeyDown(self,key):
         keyDown(key)
@@ -150,41 +157,18 @@ class Farm:
         keyUp(KEY_CANCEL)
         '''
 
-    def goToPokecenter2(self, dead=False):
+    def goHealAndGoBack(self, farmSpot: str,dead=False) -> None:
+        """
+        Input : farmSpot -> str, dead -> bool (si besoin de switch de pokemon et de fuire ou non)
+        Output : None\n
+        Fuit le combat, en switchant de pokemon si nécessaire, puis retourne au spot de farm
+        """
         if dead:
             self.switchToSecondPokemon()
-        self.wait(7)
-        press(KEY_DOWN)
-        self.wait(2)
-        press(KEY_RIGHT)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(6)
-        self.teleport()
-        self.wait(7)
-        keyUp(KEY_VALID)
-        self.wait(1)
-        keyDown(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(7)
-        press(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(2)
-        keyDown(KEY_CANCEL)
-        keyDown(KEY_DOWN)
-        self.wait(4)
-        keyUp(KEY_DOWN)
-        keyDown(KEY_LEFT)
-        self.wait(2)
-        keyUp(LEFT)
-        keyDown(KEY_DOWN)
-        self.wait(2)
-        keyUp(KEY_DOWN)
-        keyUp(KEY_CANCEL)
+        self.runAway()
+        #self.teleport()
+        #self.csvInterpreter("pokecenter-teleport")
+        self.csvInterpreter(farmSpot)
 
     def teleport(self):
         press(KEY_TELEPORT)
@@ -195,11 +179,6 @@ class Farm:
         self.wait()
         press(KEY_RIGHT)
         self.wait()
-        press(KEY_VALID)
-    
-    def jackpot(self):
-        press(KEY_VALID)
-        self.wait(2)
         press(KEY_VALID)
 
     def larcin(self):
@@ -215,6 +194,7 @@ class Farm:
             time.sleep(random.uniform(4.0,4.25))
             press(KEY_VALID)
             if("sauvage" in self.chat.getLastLine()):
+                self.inFight = True
                 return 0
             
     def csvInterpreter(self,filepath):
@@ -230,5 +210,18 @@ class Farm:
                 elif(cels[0] == "keyUpkeyDown"):
                     k = cels[1]
                     self.keyUpkeyDown(CONSTANTS[k])
+                elif(cels[0]== "press"):
+                    k = cels[1]
+                    press(k)
+                elif(cels[0] == "keyUp"):
+                    k = cels[1].replace("\n","")
+                    keyUp(CONSTANTS[k])
+                elif(cels[0] == "keyDown"):
+                    k = cels[1].replace("\n","")
+                    keyDown(CONSTANTS[k])
+                elif(cels[0] == "wait"):
+                    t = cels[1].replace("\n","")
+                    t = float(t) if('.' in t) else int(t)
+                    time.sleep(t)
                 else:
                     print("ERREUR lors de l'interprétation de la ligne suivante en csv : ",l)
