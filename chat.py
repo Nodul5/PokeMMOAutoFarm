@@ -76,3 +76,6 @@ class Chat:
         string = string.replace(u"\u041c","M")
         string = string.replace(u"\u041e", "O")
         return string
+    
+    def inFight(self) -> bool:
+        return  not("$" in self.messageHistory[-1] or "sac" in self.messageHistory[-1])
