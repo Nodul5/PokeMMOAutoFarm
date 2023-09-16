@@ -40,12 +40,15 @@ class Farm:
 
         while True:
             # Etape 1
-            #self.flyTo('Flocombe')
-            self.csvInterpreter('flocombe-flyTo')
+            #self.csvInterpreter('flocombe-flyTo')
 
             # Etape 2
-            self.csvInterpreter('flocombe-pokecenter')
-            #self.goToPokecenter1()
+            #self.csvInterpreter('pokecenter')
+
+            # Etape 3
+            self.csvInterpreter('flocombe-xp-go')
+
+            '''
             lastLine = self.chat.getLastLine()
             if(f"{FIRST_POKEMON_NAME} est envoyé par" in lastLine):
                 self.wait(3)
@@ -57,9 +60,11 @@ class Farm:
                 self.wait(3)
                 self.runAway()
                 self.wait(5)
-                self.goToPokecenter1(FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)
+                self.csvInterpreter('pokecenter')
+                #self.goToPokecenter1(FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine) 
             else:
                 self.teleport()
+            '''
 
     def wait(self,index=1):
         time.sleep(random.uniform(index-0.5,index+0.5))
@@ -81,74 +86,6 @@ class Farm:
         keyDown(key)
         time.sleep(t)
         keyUp(key)
-
-    def flyTo(self,city):
-        if(city == "Flocombe"):
-            keyDown(KEY_VOL)
-            time.sleep(0.1)
-            keyUp(KEY_VOL)
-
-            keyDown('z')
-            time.sleep(5)
-            keyUp('z')
-            keyDown('q')
-            time.sleep(5)
-            keyUp('q')
-
-            keyDown('d')
-            time.sleep(0.65)
-            keyUp('d')
-            keyDown('s')
-            time.sleep(0.5)
-            keyUp('s')
-
-            self.keyUpkeyDown(KEY_VALID)
-
-    def goToPokecenter1(self):
-        print("Entrer dans le pokécenter")
-        keyDown('z')
-        time.sleep(7)
-        keyUp('z')
-        keyDown(KEY_VALID)
-        time.sleep(8)
-        keyUp(KEY_VALID)
-        keyDown('s')
-        time.sleep(4)
-        keyUp('s')
-
-        '''
-        press(KEY_DOWN)
-        self.wait(2)
-        press(KEY_RIGHT)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(6)
-        self.teleport()
-        self.wait(7)
-        keyUp(KEY_VALID)
-        self.wait(1)
-        keyDown(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(7)
-        press(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(2)
-        keyDown(KEY_CANCEL)
-        keyDown(KEY_DOWN)
-        self.wait(4)
-        keyUp(KEY_DOWN)
-        keyDown(KEY_LEFT)
-        self.wait(2)
-        keyUp(LEFT)
-        keyDown(KEY_DOWN)
-        self.wait(2)
-        keyUp(KEY_DOWN)
-        keyUp(KEY_CANCEL)
-        '''
 
     def goToPokecenter2(self, dead=False):
         if dead:
@@ -217,8 +154,8 @@ class Farm:
             if("sauvage" in self.chat.getLastLine()):
                 return 0
             
-    def csvInterpreter(self,filepath):
-        filepath = "./src/" + filepath + ".csv"
+    def csvInterpreter(self,filename):
+        filepath = "./src/" + filename + ".csv"
         with open(filepath) as file:
             lines = file.readlines()
             for l in lines:
