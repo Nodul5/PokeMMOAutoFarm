@@ -40,10 +40,12 @@ class Farm:
 
         while True:
             # Etape 1
-            self.flyTo('Flocombe')
-            
+            #self.flyTo('Flocombe')
+            self.csvInterpreter('flocombe-flyTo')
+
             # Etape 2
-            self.goToPokecenter1()
+            self.csvInterpreter('flocombe-pokecenter')
+            #self.goToPokecenter1()
             lastLine = self.chat.getLastLine()
             if(f"{FIRST_POKEMON_NAME} est envoyé par" in lastLine):
                 self.wait(3)
@@ -75,11 +77,16 @@ class Farm:
         print("release",key)
         self.wait(0.5)
 
+    def keyUpkeyDownDelayed(self,key,t):
+        keyDown(key)
+        time.sleep(t)
+        keyUp(key)
+
     def flyTo(self,city):
         if(city == "Flocombe"):
-            keyDown('(')
+            keyDown(KEY_VOL)
             time.sleep(0.1)
-            keyUp('(')
+            keyUp(KEY_VOL)
 
             keyDown('z')
             time.sleep(5)
@@ -179,42 +186,6 @@ class Farm:
         keyUp(KEY_DOWN)
         keyUp(KEY_CANCEL)
 
-    def goToPokecenter(self, dead=False):
-        if dead:
-            self.switchToSecondPokemon()
-        self.wait(7)
-        press(KEY_DOWN)
-        self.wait(2)
-        press(KEY_RIGHT)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(6)
-        self.teleport()
-        self.wait(7)
-        keyUp(KEY_VALID)
-        self.wait(1)
-        keyDown(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(7)
-        press(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(2)
-        keyDown(KEY_CANCEL)
-        keyDown(KEY_DOWN)
-        self.wait(4)
-        keyUp(KEY_DOWN)
-        keyDown(KEY_LEFT)
-        self.wait(2)
-        keyUp(LEFT)
-        keyDown(KEY_DOWN)
-        self.wait(2)
-        keyUp(KEY_DOWN)
-        keyUp(KEY_CANCEL)
-
     def teleport(self):
         press(KEY_TELEPORT)
         self.wait(5)
@@ -245,3 +216,19 @@ class Farm:
             press(KEY_VALID)
             if("sauvage" in self.chat.getLastLine()):
                 return 0
+            
+    def csvInterpreter(self,filepath):
+        filepath = "./src/" + filepath + ".csv"
+        with open(filepath) as file:
+            lines = file.readlines()
+            for l in lines:
+                cels = l.split(";")
+                if(cels[0] == "keyUpkeyDownDelayed"):
+                    k = cels[1]
+                    t = float(cels[2]) if('.' in cels[2]) else int(cels[2])
+                    self.keyUpkeyDownDelayed(CONSTANTS[k],t)
+                elif(cels[0] == "keyUpkeyDown"):
+                    k = cels[1]
+                    self.keyUpkeyDown(CONSTANTS[k])
+                else:
+                    print("ERREUR lors de l'interprétation de la ligne suivante en csv : ",l)
