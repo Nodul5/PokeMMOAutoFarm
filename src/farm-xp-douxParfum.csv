@@ -1,0 +1,5 @@
+keyUpkeyDownDelayed;KEY_DOUX_PARFUM;0.3
+wait;14;
+press;KEY_VALID;
+press;KEY_VALID;
+wait;4;

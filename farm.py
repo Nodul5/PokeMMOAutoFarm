@@ -41,12 +41,16 @@ class Farm:
         while True:
             # Etape 1
             #self.csvInterpreter('flocombe-flyTo')
-
+            
             # Etape 2
             #self.csvInterpreter('pokecenter')
-
+            #time.sleep(4)
             # Etape 3
             self.csvInterpreter('flocombe-xp-go')
+            time.sleep(2)
+            # Etape 4
+            self.csvInterpreter('farm-xp-douxParfum')
+
 
             '''
             lastLine = self.chat.getLastLine()
@@ -167,5 +171,12 @@ class Farm:
                 elif(cels[0] == "keyUpkeyDown"):
                     k = cels[1]
                     self.keyUpkeyDown(CONSTANTS[k])
+                elif(cels[0] == "press"):
+                    k = cels[1]
+                    press(k)
+                    self.wait()
+                elif(cels[0] == "wait"):
+                    t = float(cels[1]) if('.' in cels[1]) else int(cels[1])
+                    self.wait(t)
                 else:
                     print("ERREUR lors de l'interprétation de la ligne suivante en csv : ",l)

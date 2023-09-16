@@ -1,6 +1,6 @@
-keyUpkeyDownDelayed;KEY_VOL;0.1
+keyUpkeyDownDelayed;KEY_VOL;0.01
 keyUpkeyDownDelayed;KEY_UP;5
 keyUpkeyDownDelayed;KEY_LEFT;5
 keyUpkeyDownDelayed;KEY_RIGHT;0.8
-keyUpkeyDownDelayed;KEY_DOWN;0.45
+keyUpkeyDownDelayed;KEY_DOWN;0.49
 keyUpkeyDown;KEY_VALID;
