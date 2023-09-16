@@ -136,7 +136,7 @@ class Farm:
     
     def jackpot(self):
         press(KEY_VALID)
-        self.wait()
+        self.wait(2)
         press(KEY_VALID)
 
     def larcin(self):
