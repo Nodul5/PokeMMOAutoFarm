@@ -166,8 +166,8 @@ class Farm:
         if dead:
             self.switchToSecondPokemon()
         self.runAway()
-        #self.teleport()
-        #self.csvInterpreter("pokecenter-teleport")
+        self.teleport()
+        self.csvInterpreter("pokecenter-teleport")
         self.csvInterpreter(farmSpot)
 
     def teleport(self):
