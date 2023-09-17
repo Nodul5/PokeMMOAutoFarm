@@ -83,6 +83,19 @@ class Farm:
                 self.teleport()
             '''
 
+        def goHealAndGoBack(self, farmSpot: str,dead=False) -> None:
+            """
+            Input : farmSpot -> str, dead -> bool (si besoin de switch de pokemon et de fuire ou non)
+            Output : None\n
+            Fuit le combat, en switchant de pokemon si nécessaire, puis retourne au spot de farm
+            """
+            if dead:
+                self.switchToSecondPokemon()
+            self.runAway()
+            self.teleport()
+            self.csvInterpreter("pokecenter-teleport")
+            self.csvInterpreter(farmSpot)
+
     def wait(self,index=1):
         time.sleep(random.uniform(index-0.5,index+0.5))
 
