@@ -12,7 +12,11 @@ class Farm:
         self.inFight = False
         self.dead = False
 
-    def money(self, farmSpot):
+    def money(self, farmSpot: str) -> None:
+        """
+        Input: farmSport -> str, nom du fichier csv
+        Output:\n None
+        """
         self.goHealAndGoBack(farmSpot)
         while True:
             if(self.inFight):
@@ -52,6 +56,16 @@ class Farm:
             # Etape 2
             self.csvInterpreter('pokecenter')
             #self.goToPokecenter1()
+            #self.csvInterpreter('pokecenter')
+            #time.sleep(4)
+            # Etape 3
+            self.csvInterpreter('flocombe-xp-go')
+            time.sleep(2)
+            # Etape 4
+            self.csvInterpreter('farm-xp-douxParfum')
+
+
+            '''
             lastLine = self.chat.getLastLine()
             if(f"{FIRST_POKEMON_NAME} est envoyé par" in lastLine):
                 self.wait(3)
@@ -63,9 +77,11 @@ class Farm:
                 self.wait(3)
                 self.runAway()
                 self.wait(5)
-                self.goToPokecenter1(FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)
+                self.csvInterpreter('pokecenter')
+                #self.goToPokecenter1(FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine) 
             else:
                 self.teleport()
+            '''
 
     def wait(self,index=1):
         time.sleep(random.uniform(index-0.5,index+0.5))
@@ -163,9 +179,16 @@ class Farm:
         Output : None\n
         Fuit le combat, en switchant de pokemon si nécessaire, puis retourne au spot de farm
         """
+    def goToPokecenter2(self, dead=False):
         if dead:
             self.switchToSecondPokemon()
-        self.runAway()
+        self.wait(7)
+        press(KEY_DOWN)
+        self.wait(2)
+        press(KEY_RIGHT)
+        self.wait(2)
+        press(KEY_VALID)
+        self.wait(6)
         self.teleport()
         self.csvInterpreter("pokecenter-teleport")
         self.csvInterpreter(farmSpot)
@@ -197,8 +220,8 @@ class Farm:
                 self.inFight = True
                 return 0
             
-    def csvInterpreter(self,filepath):
-        filepath = "./src/" + filepath + ".csv"
+    def csvInterpreter(self,filename):
+        filepath = "./src/" + filename + ".csv"
         with open(filepath) as file:
             lines = file.readlines()
             for l in lines:
@@ -223,5 +246,12 @@ class Farm:
                     t = cels[1].replace("\n","")
                     t = float(t) if('.' in t) else int(t)
                     time.sleep(t)
+                elif(cels[0] == "press"):
+                    k = cels[1]
+                    press(k)
+                    self.wait()
+                elif(cels[0] == "wait"):
+                    t = float(cels[1]) if('.' in cels[1]) else int(cels[1])
+                    self.wait(t)
                 else:
                     print("ERREUR lors de l'interprétation de la ligne suivante en csv : ",l)
