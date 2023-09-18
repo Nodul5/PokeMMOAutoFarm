@@ -17,7 +17,7 @@ class Farm:
         Input: farmSport -> str, nom du fichier csv
         Output:\n None
         """
-        #self.goHealAndGoBack(farmSpot)
+        self.goHealAndGoBack(farmSpot)
         while True:
             if(self.inFight):
                 lastLine = self.chat.getLastLine()
@@ -107,9 +107,9 @@ class Farm:
 
     def keyUpkeyDown(self,key):
         keyDown(key)
-        self.wait(0.5)
+        self.wait(0.25)
         keyUp(key)
-        self.wait(0.5)
+        self.wait(0.25)
 
     def keyUpkeyDownDelayed(self,key,t):
         keyDown(key)
@@ -143,6 +143,9 @@ class Farm:
         self.wait(5)
 
     def runAway(self):
+        #Clique au milieu de la fenêtre
+
+        self.wait()
         press(KEY_DOWN)
         self.wait()
         press(KEY_RIGHT)
