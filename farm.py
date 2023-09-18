@@ -180,9 +180,6 @@ class Farm:
                 elif(cels[0] == "keyUpkeyDown"):
                     k = cels[1]
                     self.keyUpkeyDown(CONSTANTS[k])
-                elif(cels[0]== "press"):
-                    k = cels[1]
-                    press(k)
                 elif(cels[0] == "keyUp"):
                     k = cels[1].replace("\n","")
                     keyUp(CONSTANTS[k])
@@ -196,9 +193,5 @@ class Farm:
                 elif(cels[0] == "press"):
                     k = cels[1]
                     press(k)
-                    self.wait()
-                elif(cels[0] == "wait"):
-                    t = float(cels[1]) if('.' in cels[1]) else int(cels[1])
-                    self.wait(t)
                 else:
                     print("ERREUR lors de l'interprétation de la ligne suivante en csv : ",l)
