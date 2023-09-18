@@ -17,11 +17,11 @@ class Farm:
         Input: farmSport -> str, nom du fichier csv
         Output:\n None
         """
-        self.goHealAndGoBack(farmSpot)
+        #self.goHealAndGoBack(farmSpot)
         while True:
             if(self.inFight):
                 lastLine = self.chat.getLastLine()
-                if(f"est envoyé par" in lastLine):
+                if("est envoyé par" in lastLine or "vite l" in lastLine or "sauvage utilise" in lastLine):
                     self.wait(3)
                     self.csvInterpreter("jackpot")
                     print("test")
@@ -107,10 +107,8 @@ class Farm:
 
     def keyUpkeyDown(self,key):
         keyDown(key)
-        print("press",key)
         self.wait(0.5)
         keyUp(key)
-        print("release",key)
         self.wait(0.5)
 
     def keyUpkeyDownDelayed(self,key,t):
@@ -163,7 +161,8 @@ class Farm:
             press(KEY_FISHING)
             time.sleep(random.uniform(4.0,4.25))
             press(KEY_VALID)
-            if("sauvage" in self.chat.getLastLine()):
+            print(self.chat.getLastLine())
+            if("sauvage" in self.chat.getLastLine() or "est envoy" in self.chat.getLastLine()):
                 self.inFight = True
                 return 0
             
@@ -172,13 +171,14 @@ class Farm:
         with open(filepath) as file:
             lines = file.readlines()
             for l in lines:
+                print(l)
                 cels = l.split(";")
                 if(cels[0] == "keyUpkeyDownDelayed"):
                     k = cels[1]
                     t = float(cels[2]) if('.' in cels[2]) else int(cels[2])
                     self.keyUpkeyDownDelayed(CONSTANTS[k],t)
                 elif(cels[0] == "keyUpkeyDown"):
-                    k = cels[1]
+                    k = cels[1].replace("\n","")
                     self.keyUpkeyDown(CONSTANTS[k])
                 elif(cels[0] == "keyUp"):
                     k = cels[1].replace("\n","")

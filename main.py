@@ -7,13 +7,13 @@ import os, time, random, pytesseract, farm
 
 # TODO Etablir plusieurs fonctions goToPokecenter pour pouvoir choisir entre plusieurs spots de farm.
 
-click(1200,800)
+#click(1200,800)
 
 ## Détecter la dernière lignes
 chat = Chat()
 
 print(chat.getLastLine())
-click(1200,800)
+#click(1200,800)
 time.sleep(random.uniform(1-0.5,1+0.5))
 
 
