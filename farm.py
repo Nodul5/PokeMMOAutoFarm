@@ -83,18 +83,18 @@ class Farm:
                 self.teleport()
             '''
 
-        def goHealAndGoBack(self, farmSpot: str,dead=False) -> None:
-            """
-            Input : farmSpot -> str, dead -> bool (si besoin de switch de pokemon et de fuire ou non)
-            Output : None\n
-            Fuit le combat, en switchant de pokemon si nécessaire, puis retourne au spot de farm
-            """
-            if dead:
-                self.switchToSecondPokemon()
-            self.runAway()
-            self.teleport()
-            self.csvInterpreter("pokecenter-teleport")
-            self.csvInterpreter(farmSpot)
+    def goHealAndGoBack(self, farmSpot: str,dead=False) -> None:
+        """
+        Input : farmSpot -> str, dead -> bool (si besoin de switch de pokemon et de fuire ou non)
+        Output : None\n
+        Fuit le combat, en switchant de pokemon si nécessaire, puis retourne au spot de farm
+        """
+        if dead:
+            self.switchToSecondPokemon()
+        self.runAway()
+        self.teleport()
+        self.csvInterpreter("pokecenter-teleport")
+        self.csvInterpreter(farmSpot)
 
     def wait(self,index=1):
         time.sleep(random.uniform(index-0.5,index+0.5))
@@ -139,72 +139,6 @@ class Farm:
             keyUp('s')
 
             self.keyUpkeyDown(KEY_VALID)
-
-    def goToPokecenter1(self):
-        print("Entrer dans le pokécenter")
-        keyDown('z')
-        time.sleep(7)
-        keyUp('z')
-        keyDown(KEY_VALID)
-        time.sleep(8)
-        keyUp(KEY_VALID)
-        keyDown('s')
-        time.sleep(4)
-        keyUp('s')
-
-        '''
-        press(KEY_DOWN)
-        self.wait(2)
-        press(KEY_RIGHT)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(6)
-        self.teleport()
-        self.wait(7)
-        keyUp(KEY_VALID)
-        self.wait(1)
-        keyDown(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(7)
-        press(KEY_VALID)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(2)
-        keyDown(KEY_CANCEL)
-        keyDown(KEY_DOWN)
-        self.wait(4)
-        keyUp(KEY_DOWN)
-        keyDown(KEY_LEFT)
-        self.wait(2)
-        keyUp(LEFT)
-        keyDown(KEY_DOWN)
-        self.wait(2)
-        keyUp(KEY_DOWN)
-        keyUp(KEY_CANCEL)
-        '''
-
-    def goHealAndGoBack(self, farmSpot: str,dead=False) -> None:
-        """
-        Input : farmSpot -> str, dead -> bool (si besoin de switch de pokemon et de fuire ou non)
-        Output : None\n
-        Fuit le combat, en switchant de pokemon si nécessaire, puis retourne au spot de farm
-        """
-    def goToPokecenter2(self, dead=False):
-        if dead:
-            self.switchToSecondPokemon()
-        self.wait(7)
-        press(KEY_DOWN)
-        self.wait(2)
-        press(KEY_RIGHT)
-        self.wait(2)
-        press(KEY_VALID)
-        self.wait(6)
-        self.teleport()
-        self.csvInterpreter("pokecenter-teleport")
-        self.csvInterpreter(farmSpot)
 
     def teleport(self):
         press(KEY_TELEPORT)
