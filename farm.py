@@ -22,24 +22,24 @@ class Farm:
             if(self.inFight):
                 print(f"En Combat : {self.inFight}")
                 lastLine = self.chat.getLastLine()
-                doitAttaquer = "est envoyé par" in lastLine or "vite l" in lastLine or "sauvage" in lastLine or "prend le type" in lastLine or "Restes de " in lastLine
+                #doitAttaquer = "est envoyé par" in lastLine or "vite l" in lastLine or "sauvage" in lastLine or "prend le type" in lastLine or "Restes de " in lastLine
                 doitFuire = "plus de PP" in lastLine or (FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)
                 finCombat = "$" in lastLine or "sac" in lastLine or "trouv" in lastLine
+                doitAttaquer = not(doitFuire or finCombat)
                 print(f"Doit Attaquer : {doitAttaquer}")
                 print(f"Doit Fuire : {doitFuire}")
                 print(f"Fin Combat :{finCombat}")
                 print(f"Last Line : {lastLine}")
                 print("plus de PP" in lastLine or (FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine))
                 if(doitAttaquer):
-                    self.wait(4) 
                     self.csvInterpreter("jackpot")      
+                    time.sleep(1)
                 elif(doitFuire):
                     self.inFight = False
                     print("Plus de PP")
                     self.goHealAndGoBack(farmSpot, FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)
                 elif(finCombat):
                     self.inFight = False
-                    self.wait(5)
             else:
                 self.fishingUntilGettingAFish()
                 
