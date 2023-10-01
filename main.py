@@ -6,6 +6,7 @@ from chat import *
 import os, time, random, pytesseract, farm
 
 # TODO Etablir plusieurs fonctions goToPokecenter pour pouvoir choisir entre plusieurs spots de farm.
+os.chdir("PokeMMOAutoFarm")
 
 ## Détecter la dernière lignes
 chat = Chat()

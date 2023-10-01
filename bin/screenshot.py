@@ -82,6 +82,7 @@ class Screenshot:
     def getLastLine(self):
         if(self.cropped is None):
             self.getChat()
+
         h,w = np.shape(self.cropped)[0:2]
         #cv2.imshow('result',self.cropped[h-26:h, 0:w])
         #cv2.waitKey(0)
