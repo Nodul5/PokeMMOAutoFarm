@@ -5,7 +5,7 @@ from PIL import ImageGrab
 
 import os, pytesseract, time, win32gui
 
-#Modification
+# Modification
 
 class Chat:
     def __init__(self):
