@@ -8,7 +8,7 @@ import os, time, random, pytesseract, farm
 # TODO Etablir plusieurs fonctions goToPokecenter pour pouvoir choisir entre plusieurs spots de farm.
 os.chdir("PokeMMOAutoFarm")
 
-## Détecter la dernière lignes
+## Détecter la dernière lignes 1
 chat = Chat()
 
 ## Combattre en fonction des coordonnées de la dernière ligne
