@@ -2,7 +2,7 @@ from pyautogui import *
 from bin.constant import *
 from chat import *
 
-import time, random
+import time, random, statistics
 
 class Farm:
     def __init__(self, chat: Chat) -> None:
@@ -17,23 +17,29 @@ class Farm:
         Input: farmSport -> str, nom du fichier csv
         Output:\n None
         """
-        self.goHealAndGoBack(farmSpot)
+        #self.goHealAndGoBack(farmSpot)
         while True:
             if(self.inFight):
+                print(f"En Combat : {self.inFight}")
                 lastLine = self.chat.getLastLine()
-                if(f"est envoyé par" in lastLine):
-                    self.wait(3)
-                    self.csvInterpreter("jackpot")
-                    print("test")
-                elif(f"Restes de " in lastLine):
-                    self.wait(3)
-                    self.csvInterpreter("jackpot")
-                    print("test")
-                elif("plus de PP" in lastLine or (FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)):
+                doitAttaquer = "est envoyé par" in lastLine or "vite l" in lastLine or "sauvage" in lastLine or "prend le type" in lastLine or "Restes de " in lastLine
+                doitFuire = "plus de PP" in lastLine or (FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)
+                finCombat = "$" in lastLine or "sac" in lastLine or "trouv" in lastLine
+                print(f"Doit Attaquer : {doitAttaquer}")
+                print(f"Doit Fuire : {doitFuire}")
+                print(f"Fin Combat :{finCombat}")
+                print(f"Last Line : {lastLine}")
+                print("plus de PP" in lastLine or (FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine))
+                if(doitAttaquer):
+                    self.wait(4) 
+                    self.csvInterpreter("jackpot")      
+                elif(doitFuire):
                     self.inFight = False
+                    print("Plus de PP")
                     self.goHealAndGoBack(farmSpot, FIRST_POKEMON_NAME in lastLine and "K.O" in lastLine)
-                elif("$" in lastLine or "sac" in lastLine):
+                elif(finCombat):
                     self.inFight = False
+                    self.wait(5)
             else:
                 self.fishingUntilGettingAFish()
                 
@@ -100,6 +106,8 @@ class Farm:
         time.sleep(random.uniform(index-0.5,index+0.5))
 
     def switchToSecondPokemon(self):
+        self.focusByClickingInCenter()
+        self.wait(1)
         press(RIGHT)
         self.wait(1)
         press(KEY_VALID)
@@ -107,11 +115,9 @@ class Farm:
 
     def keyUpkeyDown(self,key):
         keyDown(key)
-        print("press",key)
-        self.wait(0.5)
+        time.sleep(0.25)
         keyUp(key)
-        print("release",key)
-        self.wait(0.5)
+        time.sleep(0.25)
 
     def keyUpkeyDownDelayed(self,key,t):
         keyDown(key)
@@ -144,12 +150,21 @@ class Farm:
         press(KEY_TELEPORT)
         self.wait(5)
 
+    def focusByClickingInCenter(self):
+        screen = Screenshot()
+        screen.screenshotPokeMMOWindow()
+        fenetreTopLeftX,fenetreTopLeftY,fenetreBottomRightX,fenetreBottomRightY = screen.dimensions
+        click(statistics.mean([fenetreTopLeftX,fenetreBottomRightX]),statistics.mean([fenetreTopLeftY,fenetreBottomRightY]))
+
     def runAway(self):
+        self.focusByClickingInCenter() #Clique au milieu de la fenêtre
+        self.wait()
         press(KEY_DOWN)
         self.wait()
         press(KEY_RIGHT)
         self.wait()
         press(KEY_VALID)
+        time.sleep(5)
 
     def larcin(self):
         press(KEY_VALID)
@@ -163,7 +178,8 @@ class Farm:
             press(KEY_FISHING)
             time.sleep(random.uniform(4.0,4.25))
             press(KEY_VALID)
-            if("sauvage" in self.chat.getLastLine()):
+            print(self.chat.getLastLine())
+            if("sauvage" in self.chat.getLastLine() or "est envoy" in self.chat.getLastLine()):
                 self.inFight = True
                 return 0
             
@@ -172,17 +188,15 @@ class Farm:
         with open(filepath) as file:
             lines = file.readlines()
             for l in lines:
+                #print(l)
                 cels = l.split(";")
                 if(cels[0] == "keyUpkeyDownDelayed"):
                     k = cels[1]
                     t = float(cels[2]) if('.' in cels[2]) else int(cels[2])
                     self.keyUpkeyDownDelayed(CONSTANTS[k],t)
                 elif(cels[0] == "keyUpkeyDown"):
-                    k = cels[1]
+                    k = cels[1].replace("\n","")
                     self.keyUpkeyDown(CONSTANTS[k])
-                elif(cels[0]== "press"):
-                    k = cels[1]
-                    press(k)
                 elif(cels[0] == "keyUp"):
                     k = cels[1].replace("\n","")
                     keyUp(CONSTANTS[k])
@@ -196,9 +210,5 @@ class Farm:
                 elif(cels[0] == "press"):
                     k = cels[1]
                     press(k)
-                    self.wait()
-                elif(cels[0] == "wait"):
-                    t = float(cels[1]) if('.' in cels[1]) else int(cels[1])
-                    self.wait(t)
                 else:
                     print("ERREUR lors de l'interprétation de la ligne suivante en csv : ",l)

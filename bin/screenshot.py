@@ -75,7 +75,7 @@ class Screenshot:
         self.getPokeMMOWindowInfo() # Met à jour le self.hwnd, position et size
         self.dimensions = list(win32gui.GetWindowRect(self.hwnd))
         self.dimensions[0] += 8
-        self.dimensions[3] -= 8
+        self.dimensions[1] += 8
         screen = ImageGrab.grab(self.dimensions, all_screens=True)
         return np.asarray(screen)[:, :, ::-1]
     
