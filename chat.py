@@ -5,6 +5,8 @@ from PIL import ImageGrab
 
 import os, pytesseract, time, win32gui
 
+#Modification
+
 class Chat:
     def __init__(self):
         pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
